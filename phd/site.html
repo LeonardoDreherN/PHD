@@ -13,6 +13,8 @@
     <title>Pedro Henrique Dreher</title>
     <link rel="stylesheet" href="style.css">
     <script src="feedback.js"></script>
+    <script src="menu.js" defer></script>
+
 </head>
 <body>
     
@@ -25,34 +27,50 @@
         </div>
         <nav class="menu-desktop">
             <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Especialidades</a></li>
-                <li><a href="#">Quem sou eu</a></li>
-                <li><a href="#">Valores</a></li>
-                <li><a href="#">Feedback</a></li>
+                <li><a href="#topo-do-site">Início</a></li>
+                <li><a href="#Especialidades">Especialidades</a></li>
+                <li><a href="#sobre">Quem sou eu</a></li>
+                <li><a href="#contato">Feedback</a></li>
             </ul>
         </nav>
         <div class="btn-contato">
-            <a href="#">
+            <a href="https://wa.me/5548996967343?text=Oi%20Pedro%2C%20gostaria%20de%20saber%20valores%20e%20hor%C3%A1rios%20dispon%C3%ADveis%20para%20fazer%20personal%20com%20voc%C3%AA">
             <button>Contato</button>
         </a>
         </div><!--btn-contato-->
-        <div class="menu-mobile">
 
+        <div class="btn-abrir-menu" id="btn-menu">
+            <i class="bi bi-list"></i>
+        </div>
 
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar">
+                <i class="bi bi-x-lg"></i>
+            </div><!--btn-fechar-->
+
+            <nav >
+                <ul>
+                    <li><a href="#topo-do-site">Início</a></li>
+                    <li><a href="#Especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Quem sou eu</a></li>
+                    <li><a href="#contato">Feedback</a></li>
+                    <li><a href="https://wa.me/5548996967343?text=Oi%20Pedro%2C%20gostaria%20de%20saber%20valores%20e%20hor%C3%A1rios%20dispon%C3%ADveis%20para%20fazer%20personal%20com%20voc%C3%AA">Contato</a></li>
+                </ul>
+            </nav>
         </div><!--menu-mobile-->
-    </div>
+        <div class="overlay-menu" id="overlay-menu"></div><!--overlay-menu-->
+    </div><!--interface-->
 </header>
 
     <main>
-        <section class="topo-do-site">
+        <section class="topo-do-site" id="topo-do-site">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
                         <h1>Personal Trainer Pedro Henrique Dreher Narcizo<span>.</span></h1>
                         <p>Personal trainer dedicado a transformar vidas através da atividade física e do bem-estar. Acredito que cada jornada é única e estou aqui para te guiar no caminho rumo aos seus objetivos, sejam eles quais forem. Vamos crescer juntos, superando desafios e celebrando conquistas. Vem ser parte do Team PhD e descubra o seu verdadeiro potencial!</p>
                             <div class="btn-contato">
-                                <a href="#">
+                                <a href="https://wa.me/5548996967343?text=Oi%20Pedro%2C%20gostaria%20de%20saber%20valores%20e%20hor%C3%A1rios%20dispon%C3%ADveis%20para%20fazer%20personal%20com%20voc%C3%AA">
                                     <button>Entre em Contato</button>
                                 </a>
                             </div>
@@ -64,7 +82,7 @@
             </div>
         </section>
 
-        <section class="Especialidades">
+        <section class="Especialidades" id="Especialidades">
             <div class="interface">
                 <h2 class="titulo">MINHAS <SPAN>ESPECIALIDADES.</SPAN></h2>
                 <div class="flex">
@@ -91,7 +109,7 @@
             </div><!--interface-->
         </section><!--especialidades-->
 
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
@@ -104,7 +122,7 @@
                         <p> Estou sempre em busca de novas técnicas e métodos para garantir os melhores resultados para meus clientes. Vamos juntos nessa jornada rumo a uma vida mais saudável e ativa!</p>
                             <div class="btn-social">
                                 <a href="https://www.instagram.com/pedrodreher/"><button><i class="bi bi-instagram"></i></button></a>
-                                <a href="#"><button><i class="bi bi-whatsapp"></i></button></a>
+                                <a href="https://wa.me/5548996967343?text=Oi%20Pedro%2C%20gostaria%20de%20saber%20valores%20e%20hor%C3%A1rios%20dispon%C3%ADveis%20para%20fazer%20personal%20com%20voc%C3%AA"><button><i class="bi bi-whatsapp"></i></button></a>
                                 <a href="https://encurtador.com.br/XgH3E"><button><i class="bi bi-geo-alt-fill"></i></button></a>
                             </div><!--btn-social-->
                </div><!--txt-sobre-->
@@ -146,7 +164,7 @@
                 </div><!--logo-footer-->
                 <div class="btn-social">
                     <a href="https://www.instagram.com/pedrodreher/"><button><i class="bi bi-instagram"></i></button></a>
-                    <a href="#"><button><i class="bi bi-whatsapp"></i></button></a>
+                    <a href="https://wa.me/5548996967343?text=Oi%20Pedro%2C%20gostaria%20de%20saber%20valores%20e%20hor%C3%A1rios%20dispon%C3%ADveis%20para%20fazer%20personal%20com%20voc%C3%AA"><button><i class="bi bi-whatsapp"></i></button></a>
                     <a href="https://encurtador.com.br/XgH3E"><button><i class="bi bi-geo-alt-fill"></i></button></a>
                 </div><!--btn-social-->
             </div><!--flex-->
