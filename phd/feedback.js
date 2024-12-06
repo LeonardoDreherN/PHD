@@ -1,7 +1,7 @@
 document.getElementById('contactForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Evita que o formulário seja enviado da maneira padrão
+    event.preventDefault(); 
 
-    const formData = new FormData(this); // Captura os dados do formulário
+    const formData = new FormData(this); 
 
     fetch(this.action, {
         method: 'POST',
@@ -14,8 +14,8 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         return response.json();
     })
     .then(data => {
-        alert('O feedback foi enviado com sucesso!'); // Alerta de sucesso após o envio
-        // Limpar o formulário após o envio bem-sucedido, se necessário
+        alert('O feedback foi enviado com sucesso!'); 
+        // 
         this.reset();
     })
     .catch(error => {
